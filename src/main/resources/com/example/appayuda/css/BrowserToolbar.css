@@ -30,27 +30,31 @@
  * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-.button:hover
-.check-box
-.scroll-bar
-.button { 
-    -fx-font-size: 14px; 
-}
-#boton1 { 
-    -fx-text-fill: red; 
+.button:hover,
+.check-box,
+.scroll-bar,
+.button {
+    -fx-font-size: 14px;
 }
 
+#boton1 {
+    -fx-text-fill: red;
+}
 
-.browser{
+.browser {
     -fx-background-color: #666970;
 }
-.browser-toolbar .hyperlink, .browser-toolbar .button, .browser-toolbar{
+
+.browser-toolbar.hyperlink,
+.browser-toolbar.button,
+.browser-toolbar {
     -fx-text-fill: white;
 }
-.browser-toolbar{
+
+.browser-toolbar {
     -fx-base: #505359;
     -fx-background: #505359;
     -fx-shadow-highlight-color: transparent;
     -fx-spacing: 5;
-    -fx-padding: 4 4 4 4;        
+    -fx-padding: 4 4 4 4;
 }
